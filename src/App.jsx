@@ -30,6 +30,41 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* About */}
+        <section id="about" className="py-20 sm:py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+              <div className="lg:col-span-2">
+                <h3 className="text-2xl sm:text-3xl font-bold tracking-tight">Designed for teams that love velocity</h3>
+                <p className="mt-4 text-gray-600 max-w-3xl">
+                  We combine tasteful defaults with flexible building blocks so you can focus on what matters: your product.
+                  Ship multi-page flows, dashboards, and landing pages without wrestling with setup, design tokens, or accessibility.
+                </p>
+              </div>
+              <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+                <dl className="grid grid-cols-2 gap-6">
+                  <div>
+                    <dt className="text-sm text-gray-600">Components</dt>
+                    <dd className="mt-1 text-2xl font-semibold">50+</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm text-gray-600">Performance</dt>
+                    <dd className="mt-1 text-2xl font-semibold">A+</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm text-gray-600">Accessibility</dt>
+                    <dd className="mt-1 text-2xl font-semibold">WCAG</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm text-gray-600">Uptime</dt>
+                    <dd className="mt-1 text-2xl font-semibold">99.9%</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
